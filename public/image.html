@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <script>
+        function uploadImage() {
+            // Display an alert when the form is submitted
+            alert('Image is being uploaded!');
+        }
+    </script>
+</head>
+<body>
+    
+    <h6>Image Upload</h6>
+    <form action="/upload" method="POST" enctype="multipart/form-data" onsubmit="uploadImage()">
+        <input type="file" name="image" required>
+        <button type="submit">Upload Image</button>
+    </form>
+</body>
+</html>

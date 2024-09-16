@@ -1,0 +1,128 @@
+.w1 {
+    width: 95%;
+    height: auto;
+    border-radius: 60%;
+    transition: transform 0.3s ease;
+    margin-right: 60px;
+}
+
+.w1:hover {
+    transform: scale(1.1);
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    word-spacing:2px;
+  /*font-weight: bold;*/
+    text-align: center; /* Center the text horizontally */
+}
+
+.w2 {
+    width: 95%;
+    height: auto;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+    padding: 10px;
+}
+
+.w2:hover {
+    transform: scale(1.1);
+}
+
+
+.container11 {
+    /*    background-image: url('./images/wedding/wedding1.png'); */
+    background-size: cover;
+    height: 50%;
+    /*    border: 2px solid green;*/
+}
+
+.w3 {
+    width: 95%;
+    height: auto;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+    padding: 10px;
+
+}
+
+.w3:hover {
+    transform: scale(1.1);
+}
+
+.hide{
+    display:none;
+}
+.w4{
+      width: 95%;
+    height: auto;
+    border-radius: 10%;
+    transition: transform 0.3s ease;
+    padding: 10px;
+}
+@media (max-width: 576px) {
+    .col-lg-2 {
+        width: 33.33%;
+        text-align: center;
+    }
+
+    .w1 {
+        width: 50px;
+        /*padding: 20px; */
+        /*margin-right:500px;*/
+        justify-content: space-between;
+    }
+
+    .a {
+    font-size: 8px;
+    font-weight: bold;
+    text-align: center; /* Center the text horizontally */
+    word-spacing:2px;
+}
+
+    .w2 {
+        width: 90px;
+        margin: 0 auto;
+    }
+
+    .container11 {
+        background-image: none;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+        text-align: center;
+        margin: 10px;
+    }
+.hide{
+    display:block;
+}
+.hide1
+{
+    display:none;
+}
+    .w3 {
+        width: 90px;
+        margin: 0 auto;
+    }
+
+    .w4 {
+        width: 90px;
+        height: auto;
+
+    }
+
+    .w4:hover {
+        transform: scale(1.1);
+    }
+
+    .container11 {
+        background-image: none;
+    }
+
+    .w4 {
+        width: 50px;
+        margin: 0 auto;
+    }
+}

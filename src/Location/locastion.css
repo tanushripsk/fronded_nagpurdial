@@ -1,0 +1,16 @@
+.location2 {
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .location2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .location2 {
+        width: 62%;
+    }
+ 
+}

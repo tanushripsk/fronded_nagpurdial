@@ -1,0 +1,65 @@
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.fixed-bottom-right .alert {
+    position: relative;
+    padding: 0;
+    border: none;
+}
+
+.fixed-bottom-right .btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.fixed-bottom-right img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width:567px) {
+    .fixed-bottom-right img {
+        max-width: 120px;
+        height: auto;
+        display: block;
+    }
+
+    .alert {
+        width: 80px;
+        /* Adjust as needed */
+    }
+}
+
+.alert {
+    width: 180px;
+    /* Adjust as needed */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.btn-close:hover {
+    /* background-color: #050505;  */
+    color: #000000;
+}

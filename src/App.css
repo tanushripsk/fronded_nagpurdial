@@ -1,0 +1,1508 @@
+body {
+  background-color: #E2EEDB;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  text-align: justify;
+}
+
+.container {
+  background-color: #fff;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  box-shadow: 10px;
+  padding: 20px;
+  text-align: justify;
+  /*    border: 2px solid green;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+.h {
+  display: none;
+}
+
+@media screen and (max-width:567px) {
+  .h {
+    display: block;
+  }
+
+  .hh {
+    display: none;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.navbar {
+  background-color: #fff;
+  color: #333;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.login-logout a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*20 product css*/
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: 2px solid rgb(154, 153, 153);
+  border-radius: 15px;
+}
+
+.box:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Box shadow on hover */
+}
+
+.small {
+  width: 40px;
+  padding: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.small1 {
+  width: 60px;
+  height: 50px;
+  padding: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.small2 {
+  width: 40px;
+  text-align: center;
+}
+
+.big {
+  width: 48%;
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: 2px solid rgb(154, 153, 153);
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.daily {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) and (min-width: 600px) {
+
+  .big {
+    width: 100%;
+  }
+
+  .daily img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+footer {
+  background-color: #CAF4F8;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.daily {
+  border-radius: 15px;
+  width: 150px;
+}
+
+.search-location-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-location-form input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-location-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-location-form button i {
+  margin-right: 5px;
+}
+
+/* Media Query for all devices */
+@media screen and (max-width: 768px) {
+  .menu li {
+    margin-right: 10px;
+  }
+
+  .search-location-form input[type="text"] {
+    font-size: 14px;
+  }
+
+  .search-location-form button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .menu {
+    display: none;
+  }
+
+  .login-logout {
+    display: none;
+  }
+
+  .search-location-form input[type="text"] {
+    font-size: 12px;
+  }
+
+  .search-location-form button {
+    font-size: 12px;
+  }
+}
+
+.container1 a {
+  text-decoration: none;
+  color: black;
+  /*font-size:15px;*/
+}
+
+.big {
+  width: 48%;
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: 2px solid rgb(154, 153, 153);
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.daily {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.daily:hover {
+  transform: scale(1.1);
+  /* Zoom in by 10% */
+}
+
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .big {
+    width: 100%;
+  }
+
+  .daily img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .big {
+    width: 48%;
+  }
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bill {
+  color: blue;
+}
+
+.travelsection {
+  color: green;
+}
+
+.border {
+  border: 2px solid grey;
+  border-radius: 5px;
+
+}
+
+/*banner*/
+
+@media screen and (max-width: 576px) {
+  .content {
+    width: 100%;
+    height: 400%;
+  }
+}
+
+/*product*/
+.carousel {
+  width: 180px;
+  margin: auto;
+}
+
+.bp {
+  color: #5EB52B;
+}
+
+p:hover {
+  opacity: 1;
+  color: red;
+}
+
+.beauty {
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 576px) {
+  .beauty {
+    border-radius: 2px;
+    border: 2px solid grey;
+    text-align: center;
+
+  }
+}
+
+.get {
+  width: 95;
+  height: auto;
+  border-radius: 15px;
+  border: 2px solid grey;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 10px;
+  }
+}
+
+
+.rectangle-box {
+  border-radius: 2px;
+  border: 2px solid yellow;
+  box-shadow: 0 0 5px rgba(0, 5, 0, 5);
+}
+
+.icons-img {
+  width: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 0.9rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.container99 {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Opacity added */
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*banners*/
+.banner-location {
+  background-image: url('/public/banner/locationbanner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+
+.banner {
+  background-image: url('/public/banner/hoteel.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*beauty*/
+.banner1 {
+  background-image: url('/public/banner/beauty2.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*homedecover*/
+.banner2 {
+  background-image: url('/public/banner/hd.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*rent and hire*/
+.banner3 {
+  background-image: url('/public/banner/on rent.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*hospitals*/
+.banner4 {
+  background-image: url('/public/banner/hospital.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*constructor*/
+.banner5 {
+  background-image: url('/public/banner/Contractors.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*petshop*/
+.banner6 {
+  background-image: url('/public/banner/PetShop.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*Banquet Halls*/
+.banner7 {
+  background-image: url('/public/banner/banquit1.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*caters*/
+.banner8 {
+  background-image: url('/public/banner/caters.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*caters*/
+.banner9 {
+  background-image: url('/public/banner/decor.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*photoshop*/
+.banner10 {
+  background-image: url('/public/banner/photostudio.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*pandit ji*/
+.banner11 {
+  background-image: url('/public/banner/pandit.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*software*/
+.banner12 {
+  background-image: url('/public/banner/software.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*astrologer*/
+.banner13 {
+  background-image: url('/public/banner/astrologies.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*training*/
+.banner14 {
+  background-image: url('/public/banner/training.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*jobs*/
+.banner15 {
+  background-image: url('/public/banner/job.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*incometax*/
+.banner16 {
+  background-image: url('/public/banner/incometax consultant.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*internet*/
+.banner17 {
+  background-image: url('/public/banner/jobs.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*manufacturing*/
+.banner18 {
+  background-image: url('/public/banner/jobs.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*tattoo*/
+.banner19 {
+  background-image: url('/public/banner/tattoo.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*store*/
+.banner20 {
+  background-image: url('/public/banner/store.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*Engineer*/
+.banner21 {
+  background-image: url('/public/banner/engineers.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*Driving school*/
+.banner22 {
+  background-image: url('/public/banner/driving school.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*packarge & Mover*/
+.banner23 {
+  background-image: url('/public/banner/packers.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*courier*/
+.banner24 {
+  background-image: url('/public/banner/courier.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*invitation card*/
+.banner25 {
+  background-image: url('/public/banner/weddingcards.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*bridal wear*/
+.banner26 {
+  background-image: url('/public/banner/bridal.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*jewellary*/
+.banner27 {
+  background-image: url('/public/banner/jewellary.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+
+/*mehandi*/
+.banner28 {
+  background-image: url('/public/banner/mehandi.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*suite*/
+.banner29 {
+  background-image: url('/public/banner/suits.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+.banner30 {
+  background-image: url('/public/banner/mensolen.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*marrigecertificate*/
+.banner31 {
+  background-image: url('/public/banner/marrigecertificate.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*shooping*/
+.banner32 {
+  background-image: url('/public/banner/shoping.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*security*/
+.banner33 {
+  background-image: url('/public/banner/security.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*education*/
+.banner34 {
+  background-image: url('/public/banner/education.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*educationschool*/
+.banner35 {
+  background-image: url('/public/banner/school1.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*restaurants*/
+.banner36 {
+  background-image: url('/public/banner/Restaurantt.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*estate agents*/
+.banner37 {
+  background-image: url('/public/banner/realestate.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*dentists*/
+.banner38 {
+  background-image: url('/public/banner/dentist.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*gym*/
+.banner39 {
+  background-image: url('/public/banner/gym.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*consultants*/
+.banner40 {
+  background-image: url('/public/banner/consultant coverpage.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*events organizations*/
+.banner41 {
+  background-image: url('/public/banner/ev.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*lawyer*/
+.banner42 {
+  background-image: url('/public/banner/LAWYERS.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*CA*/
+.banner43 {
+  background-image: url('/public/banner/ca.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*incometax*/
+.banner44 {
+  background-image: url('/public/banner/incometax consultant.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*acrepaire*/
+.banner45 {
+  background-image: url('/public/banner/ACSERVICES.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*carepaire*/
+.banner46 {
+  background-image: url('/public/banner/cabtravel.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*bike repair*/
+.banner47 {
+  background-image: url('/public/banner/moterbike.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*electrician*/
+.banner48 {
+  background-image: url('/public/banner/electrician.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*grocery*/
+.banner49 {
+  background-image: url('/public/banner/growsari.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*grocery*/
+.banner50 {
+  background-image: url('/public/banner/coverpage movies.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*accounts*/
+.banner51 {
+  background-image: url('/public/banner/account.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*about*/
+.banner52 {
+  background-image: url('/public/banner/aboutus.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+/*csr*/
+.banner111 {
+  background-image: url('/public/banner/Corporate Social Responsibility.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  position: relative;
+}
+
+@media screen and (max-width: 576px) {
+
+  .logo img {
+    max-height: 40px;
+    max-width: 120px;
+  }
+
+  .icons-img {
+    font-size: 12px;
+    width: 20px;
+  }
+
+  .banner {
+    background-image: url('/public/banner/hoteel2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner1 {
+    background-image: url('/public/banner/beauty.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner2 {
+    background-image: url('/public/banner/hd2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner3 {
+    background-image: url('/public/banner/on rent2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner4 {
+    background-image: url('/public/banner/hospital2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner5 {
+    background-image: url('/public/banner/Contractors2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner6 {
+    background-image: url('/public/banner/PetShop2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner7 {
+    background-image: url('/public/banner/banquit2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner8 {
+    background-image: url('/public/banner/caters1.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner9 {
+    background-image: url('/public/banner/decor1.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner10 {
+    background-image: url('/public/banner/photostudio2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner11 {
+    background-image: url('/public/banner/pandit1.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner12 {
+    background-image: url('/public/banner/software2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner13 {
+    background-image: url('/public/banner/astrologies20.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner14 {
+    background-image: url('/public/banner/training2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner15 {
+    background-image: url('/public/banner/job2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner16 {
+    background-image: url('/public/banner/tax.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner17 {
+    background-image: url('/public/banner/jobs.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner18 {
+    background-image: url('/public/banner/jobs.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner19 {
+    background-image: url('/public/banner/tattoo2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner20 {
+    background-image: url('/public/banner/store2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner21 {
+    background-image: url('/public/banner/engineers2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner22 {
+    background-image: url('/public/banner/drivingschool2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner23 {
+    background-image: url('/public/banner/packers2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner24 {
+    background-image: url('/public/banner/courier2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner25 {
+    background-image: url('/public/banner/weddingcards2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner26 {
+    background-image: url('/public/banner/bridal2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner27 {
+    background-image: url('/public/banner/jewellary2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner28 {
+    background-image: url('/public/banner/mehandi2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner29 {
+    background-image: url('/public/banner/suits2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner30 {
+    background-image: url('/public/banner/mensolen20.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner31 {
+    background-image: url('/public/banner/marrigecertificate2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner32 {
+    background-image: url('/public/banner/shoping2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner33 {
+    background-image: url('/public/banner/security2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner34 {
+    background-image: url('/public/banner/education2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner35 {
+    background-image: url('/public/banner/education2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner36 {
+    background-image: url('/public/banner/Restaurantt2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner37 {
+    background-image: url('/public/banner/realestate2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner38 {
+    background-image: url('/public/banner/dentist2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner39 {
+    background-image: url('/public/banner/gym2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner40 {
+    background-image: url('/public/banner/consultantcoverpage2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner41 {
+    background-image: url('/public/banner/ev2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner42 {
+    background-image: url('/public/banner/LAWYERS2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner43 {
+    background-image: url('/public/banner/ca2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner44 {
+    background-image: url('/public/banner/ACSERVICES.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner45 {
+    background-image: url('/public/banner/incometaxconsultant2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner46 {
+    background-image: url('/public/banner/cabtravel2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner47 {
+    background-image: url('/public/banner/moterbike.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner48 {
+    background-image: url('/public/banner/Designer.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner49 {
+    background-image: url('/public/banner/growsari2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner50 {
+    background-image: url('/public/banner/coverpage movies.jpeg');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner51 {
+    background-image: url('/public/banner/account.png');
+    width: 300px;
+    height: 200px;
+
+  }
+
+  .banner52 {
+    background-image: url('/public/banner/aboutus2.png');
+    width: 300px;
+    height: 200px;
+
+  }
+}
+
+/*restaurant page*/
+.sm {
+  border-radius: 1px;
+  border: 1px solid grey;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/*about.html*/
+.hide01 {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .col-lg-41 {
+    width: 50%;
+    text-align: justify;
+  }
+
+  .col-lg-61 {
+    width: 50%;
+    text-align: justify;
+  }
+
+  .hide01 {
+    display: block;
+  }
+
+  .hide1 {
+    display: none;
+  }
+}
+
+
+
+/*movies*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.igm {
+  width: 250px;
+  height: 350px;
+  /*border-radius:5%;*/
+}
+
+.vdo {
+  width: 85%;
+  height: 100px;
+  border-radius: 5%;
+}
+
+.media {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.media11 {
+  width: 60%;
+  height: 85%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px;
+  border-radius: 5%;
+}
+
+.media1 {
+  width: 25%;
+  height: 70%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px;
+  border-radius: 5%;
+}
+
+.hide {
+  display: none;
+}
+
+.igm1 {
+  width: 200px;
+  height: 100px;
+  border-radius: 5%;
+}
+
+
+
+/*videos.html*/
+.media110 {
+  width: 25%;
+  height: 45%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px;
+  border-radius: 5%;
+}
+
+.media10 {
+  width: 65%;
+  height: 70%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px;
+  border-radius: 5%;
+}
+
+.morevideo {
+  width: 290px;
+}
+
+.currentvideo {
+  width: 750px;
+  height: 500px;
+}
+
+@media screen and (max-width: 576px) {
+  .igm {
+    width: 200px;
+    height: 250px;
+  }
+
+  .hide {
+    display: block;
+  }
+
+  .hide1 {
+    display: none;
+  }
+
+  .media {}
+
+  .media {
+    width: 100%;
+    height: auto;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    box-shadow: none;
+  }
+
+  .media1 {
+    width: 85%;
+    height: 70%;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    box-shadow: none;
+    border: 2px;
+    border-radius: 5%;
+  }
+
+  .media11 {
+    width: 95%;
+    height: 85%;
+    /*box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.1); */
+    box-shadow: none;
+    border: 2px;
+    border-radius: 5%;
+  }
+
+  .vdo {
+    width: 100%;
+    height: 100px;
+    border-radius: 5%;
+  }
+
+  .col {
+    width: 50%;
+  }
+
+  .igm1 {
+    width: 120px;
+    height: 100px;
+    border-radius: 5%;
+  }
+
+  /*video.html*/
+  .media10 {
+    width: 65%;
+    height: 70%;
+    box-shadow: none;
+    border: 2px;
+    border-radius: 5%;
+  }
+
+  .currentvideo {
+    width: 260px;
+    height: 150px;
+  }
+
+  .media110 {
+    width: 25%;
+    height: 45%;
+    box-shadow: none;
+    border: 2px;
+    border-radius: 5%;
+  }
+  .morevideo {
+    width: 250px;
+  }
+}
+
+/* overview page */
+.key {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 0px 30px 0px 30px;
+
+}
+
+@media screen and (max-width:567px) {
+  .key {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 0px 30px 0px 30px;
+  }
+
+}
+.img8 {
+  width: 100px;
+}
